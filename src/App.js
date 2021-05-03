@@ -16,6 +16,7 @@ import MyUseCallback from "./useCallback/myUseCallback";
 import MyUseMemo from "./useMemo/myUseMemo";
 import MyUseRef from "./useRef/myUseRef";
 import MyUseRefTwo from "./useRef/myUseRefTwo";
+import customHook from "./customHook/customHook";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path='/useMemo' component={MyUseMemo} exact />
         <Route path='/useRef' component={MyUseRef} exact />
         <Route path='/useRef/two' component={MyUseRefTwo} exact />
+        <Route path='/customHook' component={customHook} exact />
       </Switch>
     </div>
   );

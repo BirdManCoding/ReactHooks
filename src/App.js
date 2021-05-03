@@ -13,6 +13,7 @@ import MyUseReducer from "./useReducer/useReducerOne/myUseReducer";
 import MyUseReducerTwo from "./useReducer/useReducerTwo/myUseReducerTwo";
 import MyUseContextReducer from "./useContext_useReducer/useContextOne/myUseContextReducer";
 import MyUseCallback from "./useCallback/myUseCallback";
+import MyUseMemo from "./useMemo/myUseMemo";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           exact
         />
         <Route path='/useCallback' component={MyUseCallback} exact />
+        <Route path='/useMemo' component={MyUseMemo} exact />
       </Switch>
     </div>
   );

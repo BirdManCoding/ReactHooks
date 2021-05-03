@@ -14,6 +14,8 @@ import MyUseReducerTwo from "./useReducer/useReducerTwo/myUseReducerTwo";
 import MyUseContextReducer from "./useContext_useReducer/useContextOne/myUseContextReducer";
 import MyUseCallback from "./useCallback/myUseCallback";
 import MyUseMemo from "./useMemo/myUseMemo";
+import MyUseRef from "./useRef/myUseRef";
+import MyUseRefTwo from "./useRef/myUseRefTwo";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
         />
         <Route path='/useCallback' component={MyUseCallback} exact />
         <Route path='/useMemo' component={MyUseMemo} exact />
+        <Route path='/useRef' component={MyUseRef} exact />
+        <Route path='/useRef/two' component={MyUseRefTwo} exact />
       </Switch>
     </div>
   );
